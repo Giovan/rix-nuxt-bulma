@@ -7,8 +7,10 @@
     </div>
     <div class="columns">
       <div class="column">
-        <Menu />
-        First column
+        <div class="left-menu">
+          <Menu />
+          First column
+        </div>
       </div>
       <div class="column">
         Second column
