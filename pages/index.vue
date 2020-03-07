@@ -1,13 +1,29 @@
 <template>
-  <div class="container">
+  <div>
+    <div class="columns">
+      <div class="column">
+        <NavBar />
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <Menu />
+        First column
+      </div>
+      <div class="column">
+        Second column
+      </div>
+    </div>
   </div>
 </template>
 <script>
-// import Logo from '~/components/Logo.vue'
+import Menu from '~/components/primary/menu/index.vue'
+import NavBar from '~/components/primary/navbar/index.vue'
 
 export default {
   components: {
-    //Logo
+    Menu,
+    NavBar
   }
 }
 </script>
