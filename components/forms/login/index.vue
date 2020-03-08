@@ -11,14 +11,17 @@
         <div class="field">
           <label class="label">Email</label>
           <div class="control">
-            <input class="input" type="email" placeholder="Text input">
+            <input class="input" type="email" placeholder="example@gmail.com">
           </div>
         </div>
 
         <div class="field">
-          <label class="label">Email</label>
-          <div class="control has-icons-left has-icons-right">
-            <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+          <label class="label">Password</label>
+          <div class="control">
+            <input class="input" type="password" placeholder="*********">
+          </div>
+          <!-- <div class="control has-icons-left has-icons-right">
+            <input class="input is-danger" type="password" placeholder="*********">
             <span class="icon is-small is-left">
               <i class="fas fa-envelope"></i>
             </span>
@@ -26,7 +29,7 @@
               <i class="fas fa-exclamation-triangle"></i>
             </span>
           </div>
-          <p class="help is-danger">This email is invalid</p>
+          <p class="help is-danger">This email is invalid</p> -->
         </div>
 
         <div class="field">
@@ -50,12 +53,10 @@
     </div>
   </div>
 </template>
-
+<script>
+</script>
 <style scoped>
 .login-card-custom {
-  display: flex;
-  align-content: center;
-  align-items: center;
   max-width: 85%!important;
 }
 </style>
