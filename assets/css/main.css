@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+
+body {
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: #eee;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.blue {
+  color: #2347F9;
+}
+
+.green {
+  color: #00F5B9;
+}
+
+.salmon {
+  color: #f36954;
+}
+
+.dark-blue {
+  color: #061033;
+}
+
+.light-blue {
+  color: #05C2F9;
+}
+
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.links {
+  padding-top: 15px;
+}
+
+.nav-link {
+  color: #ffffff!important;
+}
+
+.card {
+  background-color: #ffffff!important;
+  border-radius: 4px;
+  box-shadow: 0 0 0 -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02) !important;
+}
+
+.column {
+  flex-basis: unset!important;
+}
+
+.left-menu {
+  width: 250px!important;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.right-column {
+  width: auto;
+  margin-left: 10px;
+}
+
+.label {
+  font-size: 0.90rem;
+  font-weight: 400!important;
+}
