@@ -1,13 +1,32 @@
 <template>
-  <div class="container">
+  <div>
+    <div class="columns">
+      <div class="column">
+        <NavBar />
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <LoginForm/>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <Footer />
+      </div>
+    </div>
   </div>
 </template>
 <script>
-// import Logo from '~/components/Logo.vue'
+import NavBar from '~/components/primary/navbar/index.vue'
+import Footer from '~/components/primary/footer/index.vue'
+import LoginForm from '~/components/forms/login/index.vue'
 
 export default {
   components: {
-    //Logo
+    LoginForm,
+    NavBar,
+    Footer
   }
 }
 </script>
