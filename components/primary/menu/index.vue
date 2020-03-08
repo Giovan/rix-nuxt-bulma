@@ -1,11 +1,27 @@
 <template>
   <aside class="menu">
-    <p class="menu-label">
+    <!-- <p class="menu-label">
       General
-    </p>
+    </p> -->
     <ul class="menu-list">
       <li><a>Dashboard</a></li>
-      <li><a>Customers</a></li>
+    </ul>
+    <p class="menu-label">
+      Theme
+    </p>
+    <ul class="menu-list">
+      <li><a>Colors</a></li>
+      <li><a>Typography</a></li>
+    </ul>
+    <p class="menu-label">
+      Components
+    </p>
+    <ul class="menu-list">
+      <li><a>Elements</a></li>
+      <li><a>Buttons</a></li>
+      <li><a>Charts</a></li>
+      <li><a>Forms</a></li>
+      <li><a>Maps</a></li>
     </ul>
     <p class="menu-label">
       Administration
