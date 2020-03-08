@@ -57,6 +57,12 @@ body {
 
 .card {
   background-color: #ffffff!important;
+  border-radius: 4px;
+  box-shadow: 0 0 0 -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02) !important;
+}
+
+.column {
+  flex-basis: unset!important;
 }
 
 .left-menu {
@@ -68,4 +74,9 @@ body {
 .right-column {
   width: auto;
   margin-left: 10px;
+}
+
+.label {
+  font-size: 0.90rem;
+  font-weight: 400!important;
 }

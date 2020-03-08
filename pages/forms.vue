@@ -6,13 +6,11 @@
       </div>
     </div>
     <div class="columns">
-      <div class="column">
-        <div class="left-menu">
-          <Menu />
-        </div>
+      <div class="column left-menu">
+        <Menu />
       </div>
-      <div class="column">
-        2
+      <div class="column right-column">
+        <ContainersForms />
       </div>
     </div>
     <div class="columns">
@@ -27,11 +25,14 @@ import Menu from '~/components/primary/menu/index.vue'
 import NavBar from '~/components/primary/navbar/index.vue'
 import Footer from '~/components/primary/footer/index.vue'
 
+import ContainersForms from '~/components/containers/forms/index.vue'
+
 export default {
   components: {
     Menu,
     NavBar,
-    Footer
+    Footer,
+    ContainersForms
   }
 }
 </script>
