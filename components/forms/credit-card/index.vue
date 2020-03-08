@@ -53,7 +53,6 @@
 }
 
 .credit-card {
-  /* width: 450px!important; */
   height: 350px!important;
 }
 
