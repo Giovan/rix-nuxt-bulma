@@ -1,5 +1,5 @@
 <template>
-  <div class="card credit-card credit-card-text margins-card">
+  <div class="card company-card margins-card">
     <header class="card-header">
       <p class="card-header-title">
         Company
@@ -7,7 +7,7 @@
     </header>
     <div class="card-content">
       <div class="field">
-        <label class="label">Company</label>
+        <label class="label">Name</label>
         <div class="control">
           <input class="input" type="text" placeholder="Enter your company name">
         </div>
@@ -56,7 +56,8 @@
 </script>
 <style scoped>
 .company-card {
-  height: 350px!important;
+  height: auto!important;
+  /* height: 350px!important; */
   text-align: left!important;
 }
 

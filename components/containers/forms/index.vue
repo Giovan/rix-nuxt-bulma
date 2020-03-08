@@ -6,7 +6,7 @@
       <CreditCard />
     </div>
     <div class="column">
-      <CreditCard />
+      <Company />
       <br/>
       <CreditCard />
     </div>
@@ -14,10 +14,12 @@
 </template>
 <script>
 import CreditCard from '~/components/forms/credit-card/index.vue'
+import Company from '~/components/forms/company/index.vue'
 
 export default {
   components: {
     CreditCard,
+    Company,
   }
 }
 </script>
