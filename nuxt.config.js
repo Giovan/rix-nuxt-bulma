@@ -23,6 +23,8 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    // CSS main file in the project
+    '@/assets/css/main.css',
   ],
   /*
   ** Plugins to load before mounting the App
@@ -33,6 +35,8 @@ module.exports = {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    // Doc: https://github.com/nuxt-community/eslint-module
+    '@nuxtjs/eslint-module',
   ],
   /*
   ** Nuxt.js modules
@@ -40,6 +44,24 @@ module.exports = {
   modules: [
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/bulma',
+    '@nuxtjs/axios',
+    // Doc: https://medium.com/@kozyreva.hanna/nuxt-js-fontawesome-integration-7ec56b1a41c8
+    // Doc: https://www.npmjs.com/package/nuxt-fontawesome
+    [
+      'nuxt-fontawesome', {
+        imports: [
+          {
+            set: '@fortawesome/free-solid-svg-icons',
+            icons: ['fas']
+          },
+          {
+            set:'@fortawesome/free-brands-svg-icons',
+            icons: ['fab']
+          }
+       ]
+      }
+    ],
+    '@nuxtjs/style-resources',
   ],
   /*
   ** Build configuration
@@ -57,5 +79,10 @@ module.exports = {
     */
     extend (config, ctx) {
     }
+  },
+  apiCalls: {
+    serverUrl: 'localhost',
+    qaServerUrl: '/',
+    productionServerUrl: '/'
   }
 }

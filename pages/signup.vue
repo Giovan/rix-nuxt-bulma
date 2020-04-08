@@ -7,12 +7,7 @@
     </div>
     <div class="columns">
       <div class="column">
-        <div class="left-menu">
-          <Menu />
-        </div>
-      </div>
-      <div class="column">
-        2
+        <SignUpForm />
       </div>
     </div>
     <div class="columns">
@@ -23,15 +18,15 @@
   </div>
 </template>
 <script>
-import Menu from '~/components/primary/menu/index.vue'
 import NavBar from '~/components/primary/navbar/index.vue'
 import Footer from '~/components/primary/footer/index.vue'
+import SignUpForm from '~/components/forms/signup/index.vue'
 
 export default {
   components: {
-    Menu,
     NavBar,
     Footer,
+    SignUpForm,
   }
 }
 </script>
